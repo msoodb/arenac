@@ -1,0 +1,11 @@
+
+Reading and loading large text file into memory and print content.
+
+- File size is unknown.
+- Dynamic memory allocation.
+- Each line is seperate string.
+
+
+tests:
+sudo dnf install ckeck
+sudo dnf install check-devel

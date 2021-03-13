@@ -1,0 +1,4 @@
+
+CC 		= @CC@
+CFLAGS		= -g
+OUTPUT_OPTION 	= -MMD -MP -o $@
