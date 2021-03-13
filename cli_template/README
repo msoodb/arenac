@@ -1,0 +1,5 @@
+
+cli template.
+
+tests:
+sudo dnf install ckeck check-devel

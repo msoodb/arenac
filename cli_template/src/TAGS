@@ -1,0 +1,29 @@
+
+cli.c,781
+#define _PROGRAM_NAME 29,846
+#define _PROGRAM_DESC 30,880
+#define _PROGRAM_AUTHORS 31,956
+#define _PROGRAM_VERSION 32,1013
+#define _PROGRAM_URL 33,1049
+#define EXIT_NONE 35,1103
+#define IN_RANGE(36,1124
+struct _command38,1196
+	char *config;config40,1214
+	bool verbose_flag;41,1229
+	char *color;color42,1249
+	char *output;output43,1263
+	char *SOURCE;SOURCE44,1279
+	int PORT;45,1294
+struct _command command;48,1310
+#define COLOR_LONG_OPT 50,1336
+#define OUTPUT_LONG_OPT 51,1369
+#define VERSION_LONG_OPT 52,1402
+static struct option const long_options[long_options54,1436
+void init_command(65,1878
+int vbprintf(75,2052
+void help(88,2226
+void version(108,3080
+int file_exists(121,3611
+void sig_handler(129,3739
+void terminate(137,3861
+int main(142,3892
