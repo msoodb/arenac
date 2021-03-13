@@ -57,7 +57,9 @@ clean:
 	-@rm -rf $(TEST_OBJECTS) 
 
 help:
-	-@echo "help: print this help"
-	-@echo "make: make execdutable"
-	-@echo "clean: clean object and executable"
+	-@echo "make: make the executable"
+	-@echo "make test: run test against"
+	-@echo "make clean: remove objects and executables"
+	-@echo "make etags: build the etags file"
+	-@echo "make help: print this help"
 
