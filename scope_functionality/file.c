@@ -30,7 +30,7 @@ char *concat(const char *s1, const char *s2)
 int file_exists(const char *file)
 {
 	struct stat stats;
-	stat(file, &stats);
+	if (stat(file, &stats) != 0) return 0;
 	if (stats.st_mode & R_OK) return 1;
 	return 0;
 }
